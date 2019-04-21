@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+responses:
+  success:
+    code: 0
+    message: Success
+
+  getRecordsFail: 
+    code: 1
+    message: Failed to get records
+
+  missingParams:
+    code: 2
+    message: Missing parameter(s)
+
+  invalidParam:
+    code: 3
+    message: Invalid parameter
+
+  notFound:
+    code: 4
+    message: API not found
+
+  internalError:
+    code: 5
+    message: Internal error occured
+
+
+parameters:
+  - name: startDate
+    type: Date
+    required: true
+
+  - name: endDate
+    type: Date
+    required: true
+  
+  - name: minCount
+    type: Integer
+    default: 0
+
+  - name: maxCount
+    type: Integer
+    required: true
+
+    
