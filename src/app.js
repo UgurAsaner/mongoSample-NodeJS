@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const controller = require('./controller');
 
-const port = process.env.port || config.server.port || 8080;
+const port = process.env.PORT || config.server.port || 8080;
 
 
 app.listen(port, () => console.log(`Server listening on: ${port}`));

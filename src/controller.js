@@ -59,4 +59,4 @@ const processRequest = (req, res) => {
 module.exports = {
     validateBody,
     processRequest
-}
+};

@@ -74,7 +74,7 @@ const getAggregations = (params) => {
             }
         }
     }];
-}
+};
 
 module.exports = {
     getRecords
