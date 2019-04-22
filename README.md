@@ -73,7 +73,7 @@ Project has a single end-point that accepts only HTTP Post request with json for
 
 | Code | Message |
 | ---- | ------- |
-|  0   |  Succes |
+|  0   |  Success |
 |  1   | Failed to get records |
 |  2   | Missing parameter(s) |
 |  3   | Invalid parameter |
